@@ -12,6 +12,7 @@ const App = () => {
    return(
       <>
          <div className='container'>
+            <h1 className="text-center m-5"> MOVIE TIME </h1>
             <InputMovie />
             <ListMovies />
          </div>

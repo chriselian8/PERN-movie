@@ -22,10 +22,10 @@ const EditMovie = ({movie}) => {
       <>
          <button
          type="button"
-         className="btn btn-warning"
+         className="btn"
          data-toggle="modal"
          data-target={`#id${movie.movie_id}`}>
-            Edit
+            EDIT
          </button>
          {/*
             id = id10

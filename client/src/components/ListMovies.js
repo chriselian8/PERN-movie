@@ -37,12 +37,12 @@ const ListMovies = () => {
       <>
          <h1 className='text-center mt-5'>Your Movie List</h1>
          {' '}
-         <table className='table mt-5 text-center'>
+         <table className='table mt-5 text-left border'>
             <thead>
                <tr>
-                  <th>Title</th>
-                  <th>Edit</th>
-                  <th>Delete</th>
+                  <th>TITLE</th>
+                  <th>MODIFY</th>
+                  <th>REMOVE</th>
                </tr>
             </thead>
             <tbody>
@@ -59,7 +59,7 @@ const ListMovies = () => {
                         <button
                         className='btn btn-danger'
                         onClick={() => deleteMovie(movie.movie_id)}>
-                        Delete
+                        DELETE
                         </button>
                      </td>
                   </tr>

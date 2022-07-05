@@ -21,13 +21,16 @@ const InputMovie = () => {
 
    return(
       <>
-         <h1 className='text-center mt-5'>Add a movie!</h1>
-         <form className='d-flex mt-5' onSubmit={onSubmitForm}>
+         <div className='border' id='add-movie'>
+            <h1 className='text-center mt-5'>Add a movie!</h1>
+            <form className='d-flex mt-5 justify-content-center' onSubmit={onSubmitForm}>
             <input
             type='text'
-            className='form-control' value={description} onChange={e => setDescription(e.target.value)}/>
-            <button className='btn btn-success'> Add </button>
-         </form>
+            className='text-center'
+            value={description} onChange={e => setDescription(e.target.value)}/>
+            <button className='btn btn-success'> ADD </button>
+            </form>
+         </div>
       </>
    )
 }

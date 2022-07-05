@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+body {
+   background-image: url(https://img.freepik.com/free-photo/textured-red-background-with-subtle-screen-pattern-high-quality-texture-extremely-high-resolution_463999-296.jpg?w=1480)
+}
+.modal-content {
+   background-image: url(https://img.freepik.com/free-photo/textured-red-background-with-subtle-screen-pattern-high-quality-texture-extremely-high-resolution_463999-296.jpg?w=1480)
+}
+.table {
+   background: black;
+}
+#add-movie {
+   background: black;
+}
+h1, th, button {
+   font-family: monospace;
+   font-weight: bolder;
+   color: white;
+}
+h4 {
+   font-family: monospace;
+   font-weight: bolder;
+}
+
+button {
+   color: black;
+}
+
+td {
+   font-family: inherit;
+   font-weight: bolder;
+   color: white;
+}
