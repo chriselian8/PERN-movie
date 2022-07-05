@@ -37,7 +37,7 @@ const ListMovies = () => {
       <>
          <h1 className='text-center mt-5'>Your Movie List</h1>
          {' '}
-         <table className='table mt-5 text-left border'>
+         <table className='table mt-5 text-left border bg-dark'>
             <thead>
                <tr>
                   <th>TITLE</th>

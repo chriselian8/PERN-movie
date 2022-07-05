@@ -37,10 +37,7 @@
   }
 }
 body {
-   background-image: url(https://img.freepik.com/free-photo/textured-red-background-with-subtle-screen-pattern-high-quality-texture-extremely-high-resolution_463999-296.jpg?w=1480)
-}
-.modal-content {
-   background-image: url(https://img.freepik.com/free-photo/textured-red-background-with-subtle-screen-pattern-high-quality-texture-extremely-high-resolution_463999-296.jpg?w=1480)
+   background-color: #242124;
 }
 .table {
    background: black;
@@ -56,6 +53,7 @@ h1, th, button {
 h4 {
    font-family: monospace;
    font-weight: bolder;
+   color: white;
 }
 
 button {
@@ -66,4 +64,49 @@ td {
    font-family: inherit;
    font-weight: bolder;
    color: white;
+}
+.movie-time {
+   background: black;
+   padding: 1em;
+}
+.movie-container > .row {
+   overflow-x: auto;
+   flex-wrap: nowrap;
+   margin-bottom: 5em;
+}
+.image-container {
+   position: relative;
+   transition: transform 0.8s;
+}
+.image-container:hover {
+   transform: scale(1.1);
+}
+input {
+   transition: transform 0.7s;
+}
+input:hover {
+   transition: transform 0.7s;
+   transform: scale(1.05)
+}
+button {
+   position: relative;
+   transition: transform 0.7s;
+}
+button:hover {
+   transition: transform 0.7s;
+   transform: scale(1.2);
+}
+.image-container:hover .overlay {
+   opacity: 1;
+}
+.overlay {
+   position: absolute;
+   background: rgba(0,0,0,0.3);
+   height: 100%;
+   width: 100%;
+   transition: 0.8s ease;
+   opacity: 0;
+   bottom: 0;
+   padding: 20px;
+   text-align: center;
 }

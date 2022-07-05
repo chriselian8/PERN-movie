@@ -21,12 +21,13 @@ const InputMovie = () => {
 
    return(
       <>
-         <div className='border' id='add-movie'>
+         <div className='border bg-dark' id='add-movie'>
             <h1 className='text-center mt-5'>Add a movie!</h1>
             <form className='d-flex mt-5 justify-content-center' onSubmit={onSubmitForm}>
             <input
             type='text'
             className='text-center'
+            placeholder='Input here'
             value={description} onChange={e => setDescription(e.target.value)}/>
             <button className='btn btn-success'> ADD </button>
             </form>

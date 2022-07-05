@@ -34,7 +34,7 @@ const EditMovie = ({movie}) => {
          className="modal"
          id={`id${movie.movie_id}`}>
             <div className="modal-dialog">
-               <div className="modal-content">
+               <div className="modal-content bg-dark border">
                   <div className="modal-header">
                      <h4 className="modal-title">Edit Movie</h4>
                   </div>
